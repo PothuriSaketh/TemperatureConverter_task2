@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('Assets/bg.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-between; /* Distribute space between header and container */
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    flex: 1; /* Allow header to take available space */
+}
+
+.container {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #00c6ff, #0072ff); /* Gradient background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-left: 10px; /* Adjusted margin to decrease space */
+    margin-right: 150px;
+}
+
+
+
+header h1 {
+    margin: 0;
+}
+
+header img {
+    width: 300px;
+
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin-top: auto;
+    text-align: center;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 20px; /* Rounded corners for buttons */
+}
+
+#converterContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#converterContainer input {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px; /* Space between input and button */
+    text-align: center; /* Center-align the input text */
+}
+
+#convertButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 20px; /* Rounded corners for the Convert button */
+    margin-top: 10px;
+}
+
+#result {
+    font-size: 24px;
+    color: #000000;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center; /* Center-align the result text */
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

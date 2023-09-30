@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Temperature Converter</title>
+</head>
+<body>
+    <header>
+        <h1>Temperature Converter</h1>
+        <img src="Assets/logo.png" alt="Website Logo">
+    </header>
+    
+    <div class="container">
+        <div class="buttons">
+            <button id="cToFButton">Celsius to Fahrenheit</button>
+            <button id="fToCButton">Fahrenheit to Celsius</button>
+            <button id="kToCButton">Kelvin to Celsius</button>
+            <button id="kToFButton">Kelvin to Fahrenheit</button>
+        </div>
+
+        <div id="converterContainer" class="hidden">
+            <input type="number" id="inputValue" placeholder="Enter value">
+            <button id="convertButton">Convert</button>
+            <p id="result"></p>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2023 Temperature Converter
+    </footer>
+</body>
+
+</html>
